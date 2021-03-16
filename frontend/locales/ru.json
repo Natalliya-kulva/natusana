@@ -1,0 +1,79 @@
+{
+    "elements": {
+        "buyButton": "Где купить",
+        "buy": "Купить",
+        "moreButton": "Подробнее",
+        "components": {
+            "first": "природных <br> ингредиентов",
+            "second": "БЕЗ SLS <br> и ПАРАБЕНОВ",
+            "third": "Vegan-<br> friendly",
+            "fourth": "уникальные <br> зубные пасты <br class='desktop'> с био<br class='mobile'>компонентами"
+        }
+    },
+    "header": {
+        "production": "Продукция",
+        "about": "О компании",
+        "contacts": "Контакты",
+        "developedBy": "Разработано в",
+        "address": "Россия, 109387, г. Москва, \nул. Тихая, д.24",
+        "company": "© 2020 ООО «Др.Тайсс <br class='desktop'> Натурварен Рус»"
+    },
+    "index": {
+        "promoTitle": "философия natusana",
+        "promoSubtitle": "Взять у природы все самое лучшее и полезное <br> для здоровья человека",
+        "fromGerTitle": "Сделано <br> в Германии",
+        "fromGerSubtitle": "Natusana — это бренд немецкой <br> компании Dr. Theiss Naturwaren, <br> история которой начинается <br> с 1978 года",
+        "awardText": "Все продукты Natusana <br> производятся исключительно <br class='tablet'> в Германии <br class='desktop'> на фармацевтическом <br class='tablet'> заводе, который <br class='desktop-2'> соответствует <br class='desktop-1'> стандартам качества GMP",
+        "banner": {
+            "first": "Целебные силы <br> природы",
+            "second": "современные <br> технологии",
+            "third": "уникальные <br> продукты"
+        }
+    },
+    "about": {
+        "taleQuote": "Иди и принеси <br class='desktop-1'><br class='desktop-2'><br class='tablet'>мне все, что может <br class='desktop-1'><br class='desktop-2'><br class='tablet'> излечивать",
+        "taleText": "Такое задание после семилетнего обучения получил индусский ученик <br class='mobile'> от своего учителя, чтобы заслужить право на врачевание. <br><br> Ученик скитался в поисках три дня, <br class='mobile'> и после трехдневного отсутствия <br class='tablet'> он вернулся к своему наставнику, признавшись ему: «Учитель, <br> я не способен выполнить задачу, которую ты поставил передо мной. <br class='tablet'><br class='mobile'> Я не могу принести все, что может излечивать. Так как все в природе целебно: каждое растение, каждое животное <br class='desktop-1'><br class='desktop-2'> и каждый минерал». <br><br> Именно это открытие он, как будущий целитель, <br class='desktop-1'><br class='desktop-2'> и должен был сделать - пройдя посвящение, наблюдательный ученик впоследствии стал знаменитым врачом.",
+        "originTitle": "Natusana — бренд немецкой компании Dr. Theiss Naturwaren GmbH, история которой начинается <br class='mobile'> с 1978 года",
+        "originLeft": "Доктор наук по естествознанию Петер <br class='desktop-2'> Тайсс — признанный специалист <br class='mobile'> в области фитомедицины, основал <br class='mobile'> и возглавил фармацевтический завод <br class='mobile'> Dr. Theiss Naturwaren GmbH в Хомбурге.",
+        "originRight": {
+            "top": "Главной целью Петера Тайсса было производство лекарственных препаратов и лечебной косметики <br class='desktop-2'><br class='mobile'> на основе <br class='desktop-1'> целебных трав. Философия Петера Тайсса, с которой он подходил <br class='desktop-2'><br class='mobile'> к открытию компании и завода:",
+            "green": "«взять у природы все самое лучшее и полезное для здоровья человека»",
+            "bottom": "Этой философии компания Dr. Theiss Naturwaren следует и до сих пор."
+        },
+        "productsTitle": "На сегодняшний день фармацевтический завод Dr. Theiss Naturwaren GmbH производит и разрабатывает широкий ассортимент лекарственных средств <br class='tablet'> и фармацевтической косметики",
+        "productsText": {
+            "top": "В качестве сырья для производства продукции используются растения <br> с повышенным содержанием полезных для <br class='desktop-2'> здоровья человека веществ, выведенные <br class='desktop-1'><br class='desktop-2'> в результате многолетней селекционной работы на собственных плантациях завода.",
+            "bottom": "В портфель компании Dr. Theiss Naturwaren Rus входят бренды:"
+        },
+        "productsList": {
+            "first": "Dr. Theiss",
+            "second": "Medipharma cosmetics",
+            "third": "lacalut",
+            "fourth": "Natusana"
+        },
+        "productionText": "Благодаря многолетнему опыту, современным технологиям и немецким стандартам качества, компания Dr. Theiss Naturwaren GmbH смогла создать по-настоящему уникальный продукт — натуральную зубную пасту Natusana. <br><br> Все продукты Natusana производятся исключительно в Германии <br class='desktop-1'><br class='mobile'> на фармацевтическом заводе, который соответствует стандартам <br class='mobile'> качества GMP.",
+        "bannerTitle": "Natusana (naturae (лат.) = природа, sanus (лат.) = здоровый) – «здоровье <br class='mobile'> от природы»",
+        "bannerText": "Натуральная зубная паста, в составе которой 98% природных ингредиентов. Вся линейка Natusana содержит современные <br class='desktop-1'><br class='mobile'> и эффективные компоненты для здоровья <br class='mobile'> зубов и десен",
+        "natureText": "Зная, какую силу таит в себе природа, <br class='mobile'> Dr. Theiss Naturwaren GmbH тщательно изучает свойства природных элементов и использует их в зубных пастах Natusana. Состав каждой пасты включает в себя 98% натуральных ингредиентов. <br><br> На основе минералов, растений <br class='desktop-1'><br class='desktop-2'><br class='mobile'> и природных компонентов бренд Natusana создал два продукта, обеспечивающих комплексный уход <br class='desktop-1'><br class='tablet'><br class='mobile'> за полостью рта и не содержащих SLS, парабенов. Здоровье от природы — <br class='desktop-1'><br class='mobile'> это то, что заложено в каждом продукте Natusana.",
+        "topBgDesktop": "../assets/images/about-page/top-bg-ru.svg",
+        "topBgMobile": "../assets/images/about-page/mobile-top-bg-ru.svg"
+    },
+    "product": {
+        "madeIn": "сделано <br> в Германии",
+        "action": "Действие",
+        "components": "Активные компоненты",
+        "mixture": "Состав",
+        "mixtureNote": "Сертифицированное органическое сырье"
+    },
+    "buy": {
+        "whereToBuy": "Где купить",
+        "showMore": "Показать еще",
+        "store": "Магазины",
+        "pharmacies": "Аптеки",
+        "online-store": "Интернет-магазины"
+    },
+    "notFound": {
+        "notFoundText": "СТРАНИЦА НЕ НАЙДЕНА",
+        "notFoundLinkText": "Перейти на главную страницу"
+    }
+}

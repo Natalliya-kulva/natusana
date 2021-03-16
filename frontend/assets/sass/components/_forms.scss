@@ -1,0 +1,16 @@
+input,
+select,
+textarea {
+    &.invalid {
+        border-color: #ff4c6a !important;
+    }
+
+    //&.valid {
+    //  border-color: #3dcc6d;
+    //}
+
+    &[readonly] {
+        background-color: #fff;
+        cursor: pointer;
+    }
+}

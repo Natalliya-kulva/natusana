@@ -1,0 +1,101 @@
+.health {
+    padding-top: rem-calc(100px);
+
+    @media (max-width: 992px) {
+        padding-top: rem-calc(80px);
+    }
+
+    @media (max-width: 767px) {
+        padding-top: rem-calc(45px);
+    }
+
+    &-content {
+        @include content-container(1440px);
+        background: url('~assets/images/about-page/banner.jpg') no-repeat center/contain;
+        width: 100%;
+        height: rem-calc(367px);
+        padding: rem-calc(52px 750px 0 82px);
+        //padding: rem-calc(52px 767px 0 83px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+
+        @media (max-width: 1024px) {
+            background: url('~assets/images/about-page/desktop2-banner.jpg') no-repeat center/contain;
+            height: rem-calc(384px);
+            padding: rem-calc(38px 527px 0 60px);
+        }
+
+        @media (max-width: 992px) {
+            background: url('~assets/images/about-page/tablet-banner.jpg') no-repeat center/contain;
+            height: rem-calc(542px);
+            padding: rem-calc(56px 104px 0);
+        }
+
+        @media (max-width: 767px) {
+            background: url('~assets/images/about-page/mobile-banner.jpg') no-repeat center/contain;
+            height: rem-calc(428px);
+            padding: rem-calc(30px 26px 0);
+        }
+
+        &.de {
+            background: url('~assets/images/about-page/banner-de.jpg') no-repeat center/contain;
+
+            @media (max-width: 1024px) {
+                background: url('~assets/images/about-page/desktop2-banner-de.jpg') no-repeat center/contain;
+            }
+
+            @media (max-width: 992px) {
+                background: url('~assets/images/about-page/tablet-banner-de.jpg') no-repeat center/contain;
+            }
+
+            @media (max-width: 767px) {
+                background: url('~assets/images/about-page/mobile-banner-de.jpg') no-repeat center/contain;
+            }
+        }
+    }
+
+    &-title {
+        font-weight: 600;
+        font-size: rem-calc(24px);
+        line-height: 1.375;
+        text-transform: uppercase;
+        font-family: 'Manrope';
+        margin-bottom: rem-calc(26px);
+        @include breaks;
+
+        @media (max-width: 1024px) {
+            font-size: rem-calc(20px);
+            line-height: 1.5;
+            margin-bottom: rem-calc(19px);
+        }
+
+        @media (max-width: 992px) {
+            font-size: rem-calc(20px);
+            line-height: 1.5;
+            margin-bottom: rem-calc(19px);
+        }
+
+        @media (max-width: 767px) {
+            font-size: rem-calc(18px);
+            line-height: 1.6;
+            margin-bottom: rem-calc(16px);
+        }
+    }
+
+    &-text {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: rem-calc(16px);
+        line-height: 1.375;
+        @include breaks;
+
+
+        @media (max-width: 767px) {
+            font-size: rem-calc(14px);
+            line-height: 1.4;
+        }
+    }
+}

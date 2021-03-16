@@ -1,0 +1,13 @@
+/node_modules
+/vendor
+.env
+.env.backup
+npm-debug.log
+yarn-error.log
+.idea
+backup.sql
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.nuxt
+/home/www/projects/natusana/frontend

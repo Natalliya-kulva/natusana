@@ -1,0 +1,12 @@
+/public/hot
+/public/storage
+/storage/*.key
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+/public/uploads/*
+!/public/uploads/.gitkeep
+/public/admin
+/public/docs
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep

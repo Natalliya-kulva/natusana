@@ -1,0 +1,151 @@
+@function text-em-resize($size, $font-size) {
+    @return #{$size / $font-size}em;
+}
+
+@mixin placeholder-color ($color) {
+    &::-webkit-input-placeholder { color: $color; } // WebKit browsers
+    &::-moz-placeholder {
+        color: $color;
+        opacity: 1;
+    }// Mozilla Firefox 19+
+    &:-moz-placeholder {
+        color: $color;
+        opacity: 1;
+    } // Mozilla Firefox 4 to 18
+    &:-ms-input-placeholder { color: $color; } // Internet Explorer 10+
+}
+
+@mixin text-selection-color ($bg-color, $color) {
+    & ::selection {
+        background: $bg-color;
+        color: $color;
+    }  // WebKit/Blink Browsers
+    & ::-moz-selection {
+        background: $bg-color;
+        color: $color;
+    } // Gecko Browsers
+}
+
+@mixin content-container($block-width) {
+    @media (min-width: 1440px) {
+        max-width: rem-calc($block-width);
+        margin: 0 auto;
+    }
+}
+
+@mixin about-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: rem-calc(24px);
+    line-height: 1.375;
+    font-family: 'Manrope';
+    margin-bottom: rem-calc(55px);
+    color: #6B605E;
+
+    @media (max-width: 992px) {
+        font-size: rem-calc(20px);
+        line-height: 1.5;
+        margin-bottom: rem-calc(40px);
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: rem-calc(30px);
+    }
+}
+
+@mixin about-text {
+    font-family: 'Manrope';
+    font-size: rem-calc(16px);
+    line-height: 1.375;
+    color: #6B605E;
+
+    @include breaks;
+}
+
+@mixin breaks {
+    br.desktop-1 {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    br.desktop-2 {
+        display: none;
+
+        @media (max-width: 1024px) and (min-width: 992px) {
+            display: inline;
+        }
+    }
+
+    br.tablet {
+        display: none;
+
+        @media (max-width: 992px) and (min-width: 767px) {
+            display: inline;
+        }
+    }
+
+    br.mobile {
+        display: none;
+
+        @media (max-width: 767px) {
+            display: inline;
+        }
+    }
+}
+
+@mixin link-more($color) {
+    cursor: pointer;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: rem-calc(18px);
+    line-height: 1;
+    color: $color;
+
+    .link-more-arrow {
+        width: rem-calc(40px);
+        height: rem-calc(13px);
+        margin-left: rem-calc(10px);
+        transition: transform 0.25s ease-out;
+
+        &-part {
+            fill: $color;
+        }
+    }
+
+    &:hover {
+        .link-more-arrow {
+            transform: translateX(rem-calc(10px));
+        }
+    }
+}
+
+@mixin where-to-buy($with-media-request: true) {
+    width: rem-calc(133px);
+    height: rem-calc(50px);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: rem-calc(16px);
+    line-height: 1;
+    cursor: pointer;
+    background: #6B605E;
+    border-radius: rem-calc(150px);
+    font-weight: 700;
+
+    &:hover {
+        border: 1px solid #6B605E;
+        background: none;
+        color: #6B605E;
+    }
+
+    @if $with-media-request == true {
+        @media (max-width: 767px) {
+            width: rem-calc(90px);
+            height: rem-calc(35px);
+            font-size: rem-calc(10px);
+        }
+    }
+}

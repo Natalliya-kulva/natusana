@@ -1,0 +1,121 @@
+.production {
+    padding: rem-calc(145px 245px 0 0);
+    //padding: rem-calc(116px 242px 0 0);
+    //padding: rem-calc(116px 246px 0 0);
+
+    @media (max-width: 1024px) {
+        padding: rem-calc(121px 60px 0 0);
+    }
+
+    @media (max-width: 992px) {
+        padding: rem-calc(81px 109px 0 108px);
+    }
+
+    @media (max-width: 767px) {
+        padding: rem-calc(81px 30px 0);
+    }
+
+    &-content {
+        @include content-container(1194px);
+        display: flex;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+
+        }
+    }
+
+    &-right {
+        padding-left: rem-calc(79px);
+
+        @media (max-width: 1024px) {
+            padding-left: rem-calc(75px);
+        }
+
+        @media (max-width: 992px) {
+            padding-left: 0;
+            padding-top: rem-calc(40px);
+            display: flex;
+        }
+
+        @media (max-width: 767px) {
+            padding-top: rem-calc(30px);
+            flex-direction: column;
+        }
+    }
+
+    &-img {
+        width: rem-calc(738px);
+        min-width: rem-calc(738px);
+        height: rem-calc(433px);
+
+        &.desktop-2, &.tablet {
+            display: none;
+        }
+
+        @media (max-width: 1024px) and (min-width: 992px) {
+            width: rem-calc(497px);
+            min-width: rem-calc(497px);
+            height: rem-calc(359px);
+
+            &.desktop-1 {
+                display: none;
+            }
+
+            &.desktop-2 {
+                display: block;
+            }
+        }
+
+        @media (max-width: 992px) and (min-width: 767px) {
+            width: rem-calc(551px);
+            min-width: rem-calc(551px);
+            height: rem-calc(359px);
+
+            &.desktop-1 {
+                display: none;
+            }
+
+            &.tablet {
+                display: block;
+            }
+        }
+
+        @media (max-width: 767px) {
+            width: rem-calc(315px);
+            min-width: rem-calc(315px);
+            height: rem-calc(185px);
+        }
+    }
+
+    &-icon {
+        width: rem-calc(100px);
+        min-width: rem-calc(100px);
+        height: rem-calc(100px);
+
+        @media (max-width: 767px) {
+            width: rem-calc(67px);
+            min-width: rem-calc(67px);
+            height: rem-calc(67px);
+        }
+    }
+
+    &-text {
+        @include about-text;
+        margin-top: rem-calc(44px);
+        line-height: 1.4;
+
+        @media (max-width: 1024px) {
+            margin-top: rem-calc(30px);
+        }
+
+        @media (max-width: 992px) and (min-width: 767px) {
+            margin-top: 0;
+            margin-left: rem-calc(39px);
+        }
+
+        @media (max-width: 767px) {
+            margin-top: rem-calc(20px);
+        }
+    }
+}

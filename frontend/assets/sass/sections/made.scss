@@ -1,0 +1,433 @@
+.from-ger {
+    padding: rem-calc(150px 168px 0 246px);
+
+    @media (max-width: 1024px) {
+        padding: rem-calc(130px 100px 0);
+    }
+
+    @media (max-width: 992px) {
+        padding: rem-calc(120px 108px 0 109px);
+    }
+
+    @media (max-width: 767px) {
+        padding: rem-calc(88px 14px 0 29px);
+    }
+
+    &-content {
+        @include content-container(1026px);
+        display: flex;
+        justify-content: space-between;
+        color: #6B605E;
+
+        @media (max-width: 992px) {
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+        }
+    }
+
+    &-right {
+        position: relative;
+        width: rem-calc(621px);
+        height: rem-calc(609px);
+
+        @media (max-width: 1024px) {
+            width: rem-calc(427px);
+            height: rem-calc(419px);
+        }
+
+        @media (max-width: 992px) {
+            margin-left: auto;
+        }
+
+        @media (max-width: 767px) {
+            width: rem-calc(315px);
+            height: rem-calc(309px);
+            margin-left: 0;
+        }
+    }
+
+    &-left {
+        padding: rem-calc(200px 0 0 0);
+
+        @media (max-width: 1024px) {
+            padding: rem-calc(95px 0 0 0);
+        }
+
+        @media (max-width: 992px) {
+            padding: 0;
+            margin-top: rem-calc(-32px);
+        }
+
+        @media (max-width: 767px) {
+            margin-top: rem-calc(31px);
+        }
+    }
+
+    &-title {
+        font-family: 'Gabriela';
+        font-weight: 400;
+        font-size: rem-calc(48px);
+        line-height: 1.21;
+        margin-bottom: rem-calc(27px);
+
+        @media (max-width: 992px) {
+            font-size: rem-calc(34px);
+            line-height: 1.3;
+            margin-bottom: rem-calc(20px);
+        }
+    }
+
+    &-subtitle {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: rem-calc(18px);
+        line-height: 1.6;
+        text-transform: uppercase;
+        margin-bottom: rem-calc(26px);
+        @include breaks;
+
+        @media (max-width: 767px) {
+            line-height: 1.575;
+        }
+    }
+
+    &-link {
+        @include link-more(#6B605E);
+    }
+
+    &-img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: rem-calc(570px);
+        width: rem-calc(570px);
+        height: rem-calc(570px);
+
+        @media (max-width: 1024px) {
+            max-width: rem-calc(392px);
+            width: rem-calc(392px);
+            height: rem-calc(392px);
+        }
+
+        @media (max-width: 767px) {
+            max-width: rem-calc(290px);
+            width: rem-calc(290px);
+            height: rem-calc(290px);
+        }
+    }
+
+    &-flag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: rem-calc(200px);
+        width: rem-calc(200px);
+        height: rem-calc(200px);
+
+        @media (max-width: 1024px) {
+            max-width: rem-calc(138px);
+            width: rem-calc(138px);
+            height: rem-calc(138px);
+        }
+
+        @media (max-width: 767px) {
+            max-width: rem-calc(102px);
+            width: rem-calc(102px);
+            height: rem-calc(102px);
+        }
+    }
+}
+
+.award {
+    padding: rem-calc(151px 168px 0 167px);
+
+    @media (max-width: 1024px) {
+        padding: rem-calc(161px 60px 0);
+    }
+
+    @media (max-width: 992px) {
+        padding: rem-calc(100px 108px 0 109px);
+    }
+
+    @media (max-width: 767px) {
+        padding: rem-calc(70px 0 0);
+    }
+
+    &-content {
+        @include content-container(1105px);
+        position: relative;
+        width: rem-calc(1105px);
+        height: rem-calc(619px);
+        background: url('~assets/images/index-slider/slide1-award.jpg') no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        padding-top: rem-calc(76px);
+
+        @media (max-width: 1024px) {
+            width: rem-calc(904px);
+            height: rem-calc(523px);
+            padding-top: rem-calc(60px);
+            background: url('~assets/images/index-slider/desktop2-slide1-award.jpg') no-repeat center/cover;
+        }
+
+        @media (max-width: 992px) {
+            width: rem-calc(551px);
+            height: rem-calc(349px);
+            padding-top: rem-calc(40px);
+            background: url('~assets/images/index-slider/tablet-slide1-award.jpg') no-repeat center/cover;
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+            height: rem-calc(295px);
+            padding-top: rem-calc(42px);
+            background: url('~assets/images/index-slider/mobile-slide1-award.jpg') no-repeat center/cover;
+        }
+    }
+
+    &-text {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: rem-calc(24px);
+        line-height: 1.375;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        br.desktop-2 {
+            display: none;
+        }
+
+        br.tablet {
+            display: none;
+        }
+
+        @media (max-width: 1024px) and (min-width: 992px) {
+            br.desktop-1 {
+                display: none;
+            }
+
+            br.desktop-2 {
+                display: inline;
+            }
+        }
+
+        @media (max-width: 992px) {
+            font-size: rem-calc(16px);
+
+            br.desktop {
+                display: none;
+            }
+
+            br.tablet {
+                display: inline;
+            }
+        }
+
+        @media (max-width: 767px) {
+            font-size: rem-calc(14px);
+            line-height: 1.4;
+        }
+    }
+}
+
+.banner {
+    padding-top: rem-calc(110px);
+
+    @media (max-width: 1024px) {
+        padding-top: rem-calc(80px);
+    }
+
+    @media (max-width: 992px) {
+        padding-top: rem-calc(79px);
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 0;
+    }
+
+    &-content {
+        @include content-container(1440px);
+        background: url('~assets/images/index-slider/slide1-banner.jpg') no-repeat center/cover;
+        display: flex;
+        justify-content: space-between;
+        padding: rem-calc(119px 187px 0 192px);
+        height: rem-calc(367px);
+        width: 100%;
+
+        &.de {
+            padding: rem-calc(119px 188px 0 220px);
+
+            .banner-text {
+                &:nth-child(2) {
+                    margin-right: rem-calc(-12px);
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: rem-calc(102px 122px 0 128px);
+
+                .banner-text {
+                    &:nth-child(2) {
+                        margin-right: rem-calc(-6px);
+                    }
+                }
+            }
+
+            @media (max-width: 992px) {
+                padding: rem-calc(75px 0 237px);
+
+                .banner-text {
+                    &:nth-child(2) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 1024px) {
+            background: url('~assets/images/index-slider/desktop2-slide1-banner.jpg') no-repeat center/cover;
+            padding: rem-calc(98px 120px 0 102px);
+        }
+
+        @media (max-width: 992px) {
+            background: url('~assets/images/index-slider/tablet-slide1-banner.jpg') no-repeat center/cover;
+            padding: rem-calc(75px 0 237px);
+            height: rem-calc(780px);
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media (max-width: 767px) {
+            background: url('~assets/images/index-slider/mobile-slide1-banner.jpg') no-repeat center/cover;
+        }
+    }
+
+    &-text {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: rem-calc(24px);
+        line-height: 1.375;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        &:nth-child(2) {
+            margin-right: rem-calc(22px);
+
+            @media (max-width: 992px) {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 1024px) and (min-width: 992px) {
+            font-size: rem-calc(20px);
+            line-height: 1.5;
+        }
+    }
+}
+
+.promo {
+    padding: rem-calc(142px 156px 0 171px);
+
+    @media (max-width: 1024px) {
+        padding: rem-calc(110px 64px 0 60px);
+    }
+
+    @media (max-width: 992px) {
+        padding: rem-calc(100px 108px 0 109px);
+    }
+
+    @media (max-width: 767px) {
+        padding: rem-calc(64px 30px 0);
+    }
+
+    &-content {
+        @include content-container(1113px);
+        display: flex;
+        color: #6B605E;
+
+        @media (max-width: 992px) {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+
+    &-left {
+        min-width: rem-calc(567px);
+        width: rem-calc(567px);
+        height: rem-calc(597px);
+
+        @media (max-width: 1024px) {
+            min-width: rem-calc(397px);
+            width: rem-calc(397px);
+            height: rem-calc(418px);
+        }
+
+        @media (max-width: 992px) {
+            margin: 0 auto;
+        }
+
+        @media (max-width: 767px) {
+            min-width: rem-calc(315px);
+            width: rem-calc(315px);
+            height: rem-calc(331px);
+        }
+    }
+
+    &-right {
+        padding: rem-calc(127px 0 0 114px);
+
+        @media (max-width: 1024px) {
+            padding: rem-calc(38px 0 0 71px);
+        }
+
+        @media (max-width: 992px) {
+            padding: rem-calc(28px 0 0);
+        }
+
+        @media (max-width: 767px) {
+            padding: rem-calc(25px 0 0);
+        }
+    }
+
+    &-title {
+        font-family: 'Manrope';
+        font-weight: 600;
+        font-size: rem-calc(18px);
+        line-height: 1.6;
+        text-transform: uppercase;
+        margin-bottom: rem-calc(25px);
+        text-align: left;
+
+        @media (max-width: 992px) {
+            text-align: center;
+            margin-bottom: rem-calc(15px);
+        }
+
+        @media (max-width: 767px) {
+            font-size: rem-calc(14px);
+            margin-bottom: rem-calc(12px);
+            line-height: 1.4;
+
+        }
+    }
+
+    &-subtitle {
+        font-family: 'Gabriela';
+        font-weight: 400;
+        font-size: rem-calc(48px);
+        text-align: left;
+        line-height: 1.21;
+
+        @media (max-width: 992px) {
+            text-align: center;
+            font-size: rem-calc(34px);
+            line-height: 1.3;
+        }
+
+        @media (max-width: 767px) {
+            font-size: rem-calc(24px);
+        }
+    }
+}

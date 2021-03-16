@@ -1,0 +1,158 @@
+.products {
+    padding: rem-calc(100px 229px 0);
+    //padding: rem-calc(100px 229px 0 245px);
+    //padding: rem-calc(100px 246px 0 245px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+        padding: rem-calc(100px 103px 0);
+    }
+
+    @media (max-width: 992px) {
+        padding: rem-calc(80px 80px 0);
+    }
+
+    @media (max-width: 767px) {
+        padding: rem-calc(70px 22px 0);
+    }
+
+    &-title {
+        @include about-title;
+        @include breaks;
+    }
+
+    &-content {
+        @include content-container(949px);
+        display: flex;
+        width: 100%;
+
+        @media (max-width: 767px) {
+            padding: rem-calc(0 8px 0);
+            flex-direction: column;
+        }
+    }
+
+    &-left {
+        padding-left: rem-calc(37px);
+
+        @media (max-width: 1024px) {
+            padding-left: rem-calc(44px);
+        }
+
+        @media (max-width: 992px) {
+            padding-left: rem-calc(28px);
+        }
+
+        @media (max-width: 767px) {
+            padding-left: 0;
+        }
+    }
+
+    &-right {
+        padding-left: rem-calc(156px);
+        padding-right: rem-calc(150px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 1024px) {
+            padding-left: rem-calc(103px);
+            padding-right: rem-calc(65px);
+        }
+
+        @media (max-width: 992px) {
+            padding: rem-calc(41px 28px 0 69px);
+        }
+
+        @media (max-width: 767px) {
+            padding: rem-calc(35px 0 0);
+        }
+    }
+
+    &-text {
+        @include about-text;
+        margin-bottom: rem-calc(24px);
+        //margin-bottom: rem-calc(20px);
+    }
+
+    &-list {
+        font-family: 'Manrope';
+        color: #6B605E;
+        list-style-type: none;
+        //padding-top: rem-calc(5px);
+
+        &-item {
+            font-size: rem-calc(18px);
+            line-height: 28px;
+            text-transform: uppercase;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+
+            &:before {
+                content: '';
+                background: url('~assets/images/about-page/list-marker.svg') no-repeat center/contain;
+                width: rem-calc(5px);
+                height: rem-calc(9px);
+                transform: rotate(-77.21deg);
+                margin-right: rem-calc(20px);
+            }
+        }
+    }
+
+    &-logo {
+        margin-bottom: rem-calc(40px);
+
+        &:nth-child(1) {
+            width: rem-calc(264px);
+            min-width: rem-calc(264px);
+            height: rem-calc(35px);
+
+            @media (max-width: 992px) and (min-width: 767px) {
+                width: rem-calc(197px);
+                min-width: rem-calc(197px);
+                height: rem-calc(27px);
+            }
+        }
+
+        &:nth-child(2) {
+            width: rem-calc(260px);
+            min-width: rem-calc(260px);
+            height: rem-calc(62px);
+
+            @media (max-width: 992px) and (min-width: 767px) {
+                width: rem-calc(194px);
+                min-width: rem-calc(194px);
+                height: rem-calc(47px);
+            }
+        }
+
+        //&:nth-child(3) {
+        //    width: rem-calc(154px);
+        //    min-width: rem-calc(154px);
+        //    height: rem-calc(31px);
+        //
+        //    @media (max-width: 992px) and (min-width: 767px) {
+        //        width: rem-calc(115px);
+        //        min-width: rem-calc(115px);
+        //        height: rem-calc(23px);
+        //    }
+        //}
+
+        //&:nth-child(4) {
+        &:nth-child(3) {
+            width: rem-calc(179px);
+            min-width: rem-calc(179px);
+            height: rem-calc(80px);
+            margin-bottom: 0;
+
+            @media (max-width: 992px) and (min-width: 767px) {
+                width: rem-calc(134px);
+                min-width: rem-calc(134px);
+                height: rem-calc(59px);
+            }
+        }
+    }
+}

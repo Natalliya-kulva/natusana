@@ -1,0 +1,13 @@
+.button {
+    &.primary,
+    &.secondary,
+    &.success,
+    &.alert,
+    &.warning {
+        cursor: pointer;
+    }
+
+    &.loading {
+        cursor: wait;
+    }
+}

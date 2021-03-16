@@ -1,0 +1,79 @@
+{
+    "elements": {
+        "buyButton": "Verkaufsstellen",
+        "buy": "Verkaufsstellen",
+        "moreButton": "Mehr",
+        "components": {
+            "first": "natürliche <br> Inhaltsstoffe",
+            "second": "Ohne SLS  <br> und Parabene",
+            "third": "Vegan-<br> friendly",
+            "fourth": "Einzigartige <br> Zahnpasten <br class='desktop'> mit Bio-<br class='mobile'>Inhaltsstoffen"
+        }
+    },
+    "header": {
+        "production": "Produkte",
+        "about": "Über das Unternehmen",
+        "contacts": "Kontakte",
+        "developedBy": "Entwickelt von",
+        "address": "Russland, 109387, Moskau, \nTichaja Str., 24",
+        "company": "© 2020 «Dr. Theiss Naturwaren» GmbH"
+    },
+    "index": {
+        "promoTitle": "Philosophie von Natusana",
+        "promoSubtitle": "Das Beste und Wertvollste aus der Natur für <br> die menschliche Gesundheit nutzen.",
+        "fromGerTitle": "Made <br> in Germany",
+        "fromGerSubtitle": "Bei Natusana handelt es sich <br> um eine Marke der deutschen <br> Firma Dr. Theiss Naturwaren GmbH, <br class='desktop-1'><br class='desktop-2'><br class='tablet'> deren Geschichte bis ins <br> Jahr 1978 zurückgeht.",
+        "awardText": "Alle Natusana-Produkte <br> werden ausschließlich <br class='tablet'> in Deutschland <br class='desktop'> in einem <br class='tablet'> pharmazeutischen  <br class='mobile'> GMP zertifizierten <br class='desktop-1'> Betrieb hergestellt.",
+        "banner": {
+            "first": "Heilkräfte <br> der Natur",
+            "second": "moderne <br> Technologien ",
+            "third": "einzigartige <br> Produkte "
+        }
+    },
+    "about": {
+        "taleQuote": "Bring mir alles, <br class='desktop-1'><br class='desktop-2'><br class='tablet'> was heilen <br class='desktop-1'><br class='desktop-2'><br class='tablet'> kann",
+        "taleText": "So lautete die Aufgabe, die ein indischer Lehrling von seinem Mentor <br class='mobile'> nach einer siebenjährigen Ausbildung in der Heilkunde bekam. <br><br> Nach einer dreitägigen Suche kam der <br class='mobile'> Lehrling zu seinem Mentor <br class='tablet'> zurück und gestand ihm: „Ich bin nicht in der Lage, deine Aufgabe <br> zu erfüllen, mein Mentor. Ich kann dir nicht alles bringen, <br class='tablet'><br class='mobile'> was heilen kann. Denn alles in der Natur hat eine heilende Wirkung: jede Pflanze, jedes Tier und jedes Mineral“. <br><br> Genau zu dieser Erkenntnis sollte der Lehrling als angehender Heilpraktiker kommen. Später wurde der achtsame Lehrling zu einem bekannten Arzt.",
+        "originTitle": "Bei Natusana handelt es sich um eine Marke der deutschen Firma Dr. Theiss Naturwaren GmbH, deren Geschichte bis <br class='mobile'> ins Jahr 1978 zurückgeht.",
+        "originLeft": "Dr. rer. nat. Peter Theiss, ein  <br class='desktop-2'>anerkannter Experte auf dem Gebiet Phytomedizin, gründete <br class='mobile'> und leitet den pharmazeutischen Betrieb Dr. <br class='mobile'> Theiss Naturwaren GmbH in Homburg.",
+        "originRight": {
+            "top": "Peter Theiss setzte sich die Herstellung von Arzneimitteln und medizinischer Kosmetik aus <br class='desktop-2'><br class='mobile'> Heilkräutern <br class='desktop-1'> zum Ziel. Die Philosophie, die Peter Theiss seinem Unternehmen <br class='desktop-2'><br class='mobile'> zugrunde legte, bestand darin, das Beste und Wertvollste aus der",
+            "green": "«Natur für die menschliche Gesundheit zu nutzen.»",
+            "bottom": "Diese Philosophie verfolgt das Unternehmen Dr. Theiss Naturwaren immer noch. "
+        },
+        "productsTitle": "Heute wird im pharmazeutischen Werk Dr. Theiss Naturwaren GmbH eine breite Produktpallette von Arzneimitteln und medizinischer Kosmetik hergestellt",
+        "productsText": {
+            "top": "Die Produkte werden aus Pflanzen hergestellt, die besonders wertvoll <br> für die menschliche Gesundheit sind <br class='desktop-2'> und durch jahrelange Selektionsarbeit <br class='desktop-1'><br class='desktop-2'> auf eigenen Plantagen des Betriebs gezüchtet werden.",
+            "bottom": "Die Produktpalette von Dr. Theiss Naturwaren Rus umfasst folgende Produktlinien:"
+        },
+        "productsList": {
+            "first": "Dr. Theiss",
+            "second": "Medipharma cosmetics",
+            "third": "lacalut",
+            "fourth": "Natusana"
+        },
+        "productionText": "Durch die langjährige Erfahrung, moderne Technologien und deutsche Qualitätsstandards konnte die Firma Dr.  Theiss Naturwaren GmbH ein einzigartiges Produkt - die Zahnpaste Natusana - entwickeln. <br><br> Alle Natusana-Produkte werden ausschließlich in Deutschland <br class='desktop-1'><br class='mobile'> in einem pharmazeutischen GMP zertifizierten Betrieb hergestellt. ",
+        "bannerTitle": "Natusana (naturae (Lat.) = Natur, sanus (Lat.) = gesund) – «Gesundheit <br class='mobile'> aus der Natur»",
+        "bannerText": "Eine natürliche Zahnpasta, die zu 98% aus natürlichen Inhaltsstoffen besteht. Die gesamte Produktlinie Natusana <br class='desktop-1'><br class='mobile'> enthält moderne und effektive Inhaltsstoffe <br class='mobile'> für die Gesundheit von Zähnen und Zahnfleisch.",
+        "natureText": "Mit dem Wissen über die Kraft, die sich <br class='mobile'> in der Natur verbirgt, erforscht die Dr. Theiss Naturwaren GmbH die Eigenschaften von natürlichen Stoffen und setzt diese in den Zahnpasten der Linie Natusana ein. Jede Zahnpasta besteht zu 98% aus natürlichen Inhaltsstoffen. <br><br> Aus Mineralien, Pflanzen und natürlichen Stoffen wurden zwei Produkte der Linie Natusana geschaffen, die eine umfassende Mundraumpflege ermöglichen und keine SLS und Parabene enthalten. Natürliche Gesundheit steckt in jedem Natusana-Produkt.",
+        "topBgDesktop": "../assets/images/about-page/top-bg-de.svg",
+        "topBgMobile": "../assets/images/about-page/mobile-top-bg-de.svg"
+    },
+    "product": {
+        "madeIn": "Made <br> in Germany",
+        "action": "Wirkung",
+        "components": "Wirkstoffe",
+        "mixture": "Zusammensetzung",
+        "mixtureNote": "Zertifizierte organische Rohstoffe"
+    },
+    "buy": {
+        "whereToBuy": "Verkaufsstellen",
+        "showMore": "Mehr",
+        "store": "Geschäfte",
+        "pharmacies": "Apotheken",
+        "online-store": "Internet"
+    },
+    "notFound": {
+        "notFoundText": "Seite wurde nicht gefunden",
+        "notFoundLinkText": "Zurück zur Hauptseite..."
+    }
+}

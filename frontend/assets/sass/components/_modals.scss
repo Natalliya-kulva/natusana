@@ -1,0 +1,25 @@
+div.modal-box {
+    & > .inner {
+        background: #fff;
+        border-radius: 0.375rem;
+        max-width: rem-calc(1000px);
+        padding: 0;
+        width: 100%;
+        margin: rem-calc(0 20px);
+
+        button.close.close {
+            opacity: 1;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            right: rem-calc(18px);
+            top: rem-calc(23px);
+            font-size: rem-calc(30px);
+            color: #000;
+            outline: none;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}

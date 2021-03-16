@@ -1,0 +1,36 @@
+@import 'settings';
+@import 'mixins';
+
+//@import "fontawesome";
+@import '~foundation-sites/scss/foundation';
+//@import '~cropperjs/dist/cropper';
+@import 'foundation';
+
+//@import "~air-datepicker/dist/css/datepicker";
+//@import '~jquery.modal-box/dist/jquery.modalBox';
+
+@import 'fonts';
+@import 'layout';
+
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+//@import 'components/navbar';
+@import 'components/buttons';
+//@import 'components/forms';
+@import 'components/transitions';
+//@import 'components/modals';
+//@import 'components/jscrollpane';
+
+//blanks
+
+@import 'blanks/blanks';
+@import 'blocks/blocks';
+@import 'sections/sections';
+
+// Pages
+@import 'pages/home';
+@import 'pages/error';
+
+@import '~swiper/dist/css/swiper';
